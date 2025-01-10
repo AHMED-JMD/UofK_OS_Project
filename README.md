@@ -29,7 +29,7 @@ While the program is running, press Ctrl+C to trigger the SIGINT signal. The pro
 The program calculates the time difference between now and the alarm time.
 It sets a timeout for the alarm.
 When the alarm triggers, it prompts the user to stop or snooze.
-If the user chooses to snooze, it resets the alarm based on the provided time or defaults to 1 minute.
+If the user chooses to snooze, it resets the alarm based on the provided time or defaults to 2 minute.
 
 #### used the help of chatgpt to develop the code
 

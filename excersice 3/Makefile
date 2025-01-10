@@ -1,13 +1,13 @@
 # Compiler and target
 CC = gcc
-TARGET = alarm
+TARGET = task_3
 
 # Default target
 all: $(TARGET)
 
 # Build the executable
-$(TARGET): alarm.c
-	$(CC) -o $(TARGET) alarm.c
+$(TARGET): task_3.c
+	$(CC) -o $(TARGET) task_3.c
 
 # Run the program
 run: $(TARGET)

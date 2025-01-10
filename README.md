@@ -45,4 +45,4 @@ Features:
   Prompts the user to stop or snooze the alarm.
   Resets the alarm based on user input.
 - Default Snooze:
-  Defaults to 2 minute if no snooze time is entered
+  Defaults to 1 minute if no snooze time is entered

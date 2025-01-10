@@ -2,21 +2,16 @@
 
 # Compiler
 CC = gcc
+TARGET = signal_handler
 
 # Compiler flags
 CFLAGS = -Wall -g
-
-# Target executable
-TARGET = signal_handler
-
-# Source files
-SRC = Task_2.c
 
 # Default target
 all: $(TARGET)
 
 # Build the target
-$(TARGET): $(SRC)
+$(TARGET): Task_2.c
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
 
 # Clean up build files

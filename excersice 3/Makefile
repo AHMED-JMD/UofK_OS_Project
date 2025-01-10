@@ -16,6 +16,3 @@ run: $(TARGET)
 # Clean up generated files
 clean:
 	rm -f $(TARGET)
-
-# Phony targets
-.PHONY: all run clean

@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
             alarm_triggered = 0; // Reset the flag
             printf("\nALARM! Current time: %s", asctime(localtime(&now)));
 
-            int snooze_time = 2; // Default snooze time
+            int snooze_time = 1; // Default snooze time
             prompt_snooze(&snooze_time);
 
             now = time(NULL);
